@@ -5,7 +5,7 @@ st.title("Cryptographic Puzzle")
 st.header("Challenge AI")
 
 word1 = st.text_input('First Word', 'TWO')
-word2 = st.text_input('First Word', 'TWO')
+word2 = st.text_input('Second Word', 'TWO')
 word3 = st.text_input('Solution Word', 'FOUR')
 
 letters = []
