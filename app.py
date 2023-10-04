@@ -1,5 +1,7 @@
 from simpleai.search import CspProblem, backtrack
 
+st.write("Test")
+
 word1 = input("First word: ")
 word2 = input("Second word: ")
 word3 = input("Solution word: ")
