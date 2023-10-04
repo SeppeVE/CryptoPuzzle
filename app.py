@@ -1,7 +1,8 @@
 import streamlit as st
 from simpleai.search import CspProblem, backtrack
 
-st.write("Test")
+st.title("Cryptographic Puzzle")
+st.header("Challenge AI")
 
 word1 = input("First word: ")
 word2 = input("Second word: ")
