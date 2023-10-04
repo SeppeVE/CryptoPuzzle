@@ -1,4 +1,3 @@
-import streamlit as st
 from simpleai.search import CspProblem, backtrack
 
 word1 = input("First word: ")
