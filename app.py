@@ -1,3 +1,4 @@
+import streamlit as st
 from simpleai.search import CspProblem, backtrack
 
 st.write("Test")
