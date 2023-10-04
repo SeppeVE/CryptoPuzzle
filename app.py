@@ -59,9 +59,6 @@ def constraint_add(letters, values):
         pos = letters.index(char)
         solution += str(values[pos])
 
-    word1 = factor1
-    word2 = factor2
-    word3 = solution
 
     factor1 = int(factor1)
     factor2 = int(factor2)
@@ -80,9 +77,6 @@ problem = CspProblem(letters, domains, constraints)
 if st.button('Run'):
     output = backtrack(problem)
     st.write('\nSolutions:', output)
-    st.write(word1)
-    st.write(word2)
-    st.write(word3)
 
 #output = backtrack(problem)
 #print('\nSolutions:', output)
