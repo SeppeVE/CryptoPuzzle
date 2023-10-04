@@ -72,5 +72,11 @@ constraints = [
 
 problem = CspProblem(letters, domains, constraints)
 
-output = backtrack(problem)
-print('\nSolutions:', output)
+st.button("Run", type="primary")
+if st.button('Run'):
+    output = backtrack(problem)
+    st.write('\nSolutions:', output)
+    st.write('Why hello there')
+
+#output = backtrack(problem)
+#print('\nSolutions:', output)
