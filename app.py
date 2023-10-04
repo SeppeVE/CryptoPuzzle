@@ -4,9 +4,9 @@ from simpleai.search import CspProblem, backtrack
 st.title("Cryptographic Puzzle")
 st.header("Challenge AI")
 
-word1 = input("First word: ")
-word2 = input("Second word: ")
-word3 = input("Solution word: ")
+word1 = st.text_input('First Word', 'TWO')
+word2 = st.text_input('First Word', 'TWO')
+word3 = st.text_input('Solution Word', 'FOUR')
 
 letters = []
 
