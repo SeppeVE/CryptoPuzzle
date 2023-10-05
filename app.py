@@ -15,26 +15,26 @@ domains = {}
 for i in word1:
     if i == word1[0]:
         domains[i] = list(range(1, 10))
-        letters.append(i);
+        letters.append(i)
     else:
         domains[i] = list(range(0, 10))
-        letters.append(i);
+        letters.append(i)
 
 for j in word2:
     if j == word2[0]:
         domains[j] = list(range(1, 10))
-        letters.append(j);
+        letters.append(j)
     else:
         domains[j] = list(range(0, 10))
-        letters.append(j);
+        letters.append(j)
 
 for k in word3:
     if k == word3[0]:
         domains[k] = list(range(1, 10))
-        letters.append(k);
+        letters.append(k)
     else:
         domains[k] = list(range(0, 10))
-        letters.append(k);
+        letters.append(k)
 
 letters = list(set(letters))
 
